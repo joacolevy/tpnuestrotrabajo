@@ -1,18 +1,36 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class INTERACTIVEAREA : MonoBehaviour
 {
-    public scoreUIManager scoreUI;
+    private UImanager uiManager;
+    private gamemanager gameManager;
 
-    void OnCollisionEnter(Collision col)
+    private int score = 0;
+
+    void Awake()
     {
-        if(col.gameObject.CompareTag("picable"))
-        {
-            Destroy(col.gameObject);
+        uiManager = FindObjectOfType<UImanager>();
+        gameManager = FindObjectOfType<gamemanager>();
+    }
 
-            scoreUI.AddPointAndUpdateScore();
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Collectible"))
+        {
+            score++;
+
+            uiManager.UpdateScore(score);
+
+            Destroy(other.gameObject);
+
+            if (score >= 5)
+            {
+                uiManager.MostrarPantallaWin();
+
+                gameManager.TerminarJuego();
+
+                Time.timeScale = 0f;
+            }
         }
     }
 }
