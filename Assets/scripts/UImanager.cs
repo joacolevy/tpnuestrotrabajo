@@ -6,9 +6,6 @@ public class UImanager : MonoBehaviour
     public TMP_Text scoreText;
     public TMP_Text timerText;
 
-    public GameObject Winpanel;
-    public GameObject GameoverPanel;
-
     public void UpdateScore(int score)
     {
         scoreText.text = "Score: " + score;
@@ -18,15 +15,5 @@ public class UImanager : MonoBehaviour
     {
         int seconds = Mathf.CeilToInt(time);
         timerText.text = "00:" + seconds.ToString("00");
-    }
-
-    public void MostrarPantallaWin()
-    {
-        Winpanel.SetActive(true);
-    }
-
-    public void MostrarPantallaGameOver()
-    {
-        GameoverPanel.SetActive(true);
     }
 }
