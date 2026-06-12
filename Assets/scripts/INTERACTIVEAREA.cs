@@ -17,16 +17,32 @@ public class INTERACTIVEAREA : MonoBehaviour
     {
         if (other.CompareTag("Collectible"))
         {
-            score += 3; // suma 3 puntos
+            if (other.name == "Objeto1")
+                score += 1;
+            else if (other.name == "Objeto2")
+                score += 1;
+            else if (other.name == "Objeto3")
+                score += 1;
+            else if (other.name == "Objeto4")
+                score += 1;
+            else if (other.name == "Objeto5")
+                score += 2;
+            else if (other.name == "Objeto6")
+                score += 2;
+            else if (other.name == "Objeto7")
+                score += 2;
 
             uiManager.UpdateScore(score);
 
             Destroy(other.gameObject);
 
-            if (score >= 9) // 3 objetos x 3 puntos
+            if (score >= 10)
             {
-                uiManager.scoreText.text = "¡Ganaste!";
-                gameManager.timer = 0;
+                uiManager.MostrarPantallaWin();
+
+                gameManager.TerminarJuego();
+
+                Time.timeScale = 0f;
             }
         }
     }
