@@ -1,23 +1,14 @@
 fileFormatVersion: 2
-guid: 172b8b341dd0bd94faae53702e9a3bc0
+guid: 5bbf1c11f73ab1345875e30967676439
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Camera
-    100002: Chair
-    100004: Light
-    100006: //RootNode
-    400000: Camera
-    400002: Chair
-    400004: Light
-    400006: //RootNode
-    2000000: Camera
+    100000: //RootNode
+    400000: //RootNode
     2100000: Material.001
-    2300000: Chair
-    3300000: Chair
-    4300000: Chair
-    10800000: Light
-    2186277476908879412: ImportLogs
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Plane
   externalObjects: {}
   materials:
     importMaterials: 1
