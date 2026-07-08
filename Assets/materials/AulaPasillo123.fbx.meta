@@ -1,0 +1,283 @@
+fileFormatVersion: 2
+guid: c569504905bb61643a54134a0a71b625
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cube
+    100004: Cube.001
+    100006: Cube.002
+    100008: Cube.003
+    100010: Cube.004
+    100012: Cube.005
+    100014: Cube.006
+    100016: Cube.007
+    100018: Cube.008
+    100020: Cube.009
+    100022: Cube.010
+    100024: Cube.011
+    100026: Cube.012
+    100028: Cube.013
+    100030: Cube.014
+    100032: Cube.015
+    100034: Cylinder.003
+    100036: Plane
+    100038: Plane.001
+    100040: Plane.002
+    100042: Plane.003
+    100044: Plane.004
+    100046: Plane.008
+    100048: Plane.009
+    100050: Plane.010
+    400000: //RootNode
+    400002: Cube
+    400004: Cube.001
+    400006: Cube.002
+    400008: Cube.003
+    400010: Cube.004
+    400012: Cube.005
+    400014: Cube.006
+    400016: Cube.007
+    400018: Cube.008
+    400020: Cube.009
+    400022: Cube.010
+    400024: Cube.011
+    400026: Cube.012
+    400028: Cube.013
+    400030: Cube.014
+    400032: Cube.015
+    400034: Cylinder.003
+    400036: Plane
+    400038: Plane.001
+    400040: Plane.002
+    400042: Plane.003
+    400044: Plane.004
+    400046: Plane.008
+    400048: Plane.009
+    400050: Plane.010
+    2100000: piso.001
+    2100002: Ladrillo
+    2100004: Material.003
+    2100006: No Name
+    2100008: Material.005
+    2100010: piso
+    2100012: columnaRosa
+    2100014: Material.002
+    2100016: puerta
+    2100018: borde
+    2300000: Cube
+    2300002: Cube.001
+    2300004: Cube.002
+    2300006: Cube.003
+    2300008: Cube.004
+    2300010: Cube.005
+    2300012: Cube.006
+    2300014: Cube.007
+    2300016: Cube.008
+    2300018: Cube.009
+    2300020: Cube.010
+    2300022: Cube.011
+    2300024: Cube.012
+    2300026: Cube.013
+    2300028: Cube.014
+    2300030: Cube.015
+    2300032: Cylinder.003
+    2300034: Plane
+    2300036: Plane.001
+    2300038: Plane.002
+    2300040: Plane.003
+    2300042: Plane.004
+    2300044: Plane.008
+    2300046: Plane.009
+    2300048: Plane.010
+    3300000: Cube
+    3300002: Cube.001
+    3300004: Cube.002
+    3300006: Cube.003
+    3300008: Cube.004
+    3300010: Cube.005
+    3300012: Cube.006
+    3300014: Cube.007
+    3300016: Cube.008
+    3300018: Cube.009
+    3300020: Cube.010
+    3300022: Cube.011
+    3300024: Cube.012
+    3300026: Cube.013
+    3300028: Cube.014
+    3300030: Cube.015
+    3300032: Cylinder.003
+    3300034: Plane
+    3300036: Plane.001
+    3300038: Plane.002
+    3300040: Plane.003
+    3300042: Plane.004
+    3300044: Plane.008
+    3300046: Plane.009
+    3300048: Plane.010
+    4300000: Plane
+    4300002: Cube
+    4300004: Cube.001
+    4300006: Cube.002
+    4300008: Cube.003
+    4300010: Plane.001
+    4300012: Cube.004
+    4300014: Cube.005
+    4300016: Cube.006
+    4300018: Plane.002
+    4300020: Cube.007
+    4300022: Cube.008
+    4300024: Cube.009
+    4300026: Cube.010
+    4300028: Cube.011
+    4300030: Cube.012
+    4300032: Cube.013
+    4300034: Cube.014
+    4300036: Plane.008
+    4300038: Plane.009
+    4300040: Plane.010
+    4300042: Cube.015
+    4300044: Cylinder.003
+    4300046: Plane.003
+    4300048: Plane.004
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ladrillo
+    second: {fileID: 2100000, guid: 221da49e079c639498cd32d0a45eee6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: ef7ee260299e90c4bb0ed790515fac87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: cebccd893f384aa45945f07c901ddb4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.005
+    second: {fileID: 2100000, guid: e74c6c486c834c8449c4a0d7cd8f06aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: e0370ea6945eedf4492130bd2a32c40c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: borde
+    second: {fileID: 2100000, guid: 0b3b1070b5a7e694095cc0073e1ce614, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: columnaRosa
+    second: {fileID: 2100000, guid: bf608f8d9980d8f40841bee19ed8b1b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: piso
+    second: {fileID: 2100000, guid: 0160a855bfcf2ee46898d3d47b48f2b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: piso.001
+    second: {fileID: 2100000, guid: 2735bf3c7cde89647bde5ebef372da92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: puerta
+    second: {fileID: 2100000, guid: e6b40895976dc0d43a58f9c7726db041, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ladrillo
+    second: {fileID: 2800000, guid: 92fbfe9ec365dff45a890855eacc1c99, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
